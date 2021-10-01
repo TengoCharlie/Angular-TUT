@@ -1,7 +1,8 @@
 # Angular
 
-## Make and call function
+## Events
 
-- have to give type for every variable and parameter `VARIABLE: TYPE` else it gives error
-- This is in new angular version which is because of `"strict": true` in `tsconfig.json` to make application with least error make it `"strict": false`
-- And also restart the application from start after changing `tsconfig.json`
+- make function for handling event
+- calling a function by events like `keypress, keydown, mouseover`
+- give id to a component using `#` like `#box` = `id='box'`
+- pass dynamic value in INPUT fields as `ID.value` as parameter.

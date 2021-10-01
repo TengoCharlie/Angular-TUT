@@ -6,15 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'blog';
-  data = 'Harsh Tenguriya';
+  title = 'Important Event in Angular';
 
 
-  // getName(name: string) {
-  //   alert(name);
-  // }
-
-  getName(name: any) {
-    alert(name);
+  getData(val: string) {
+    console.warn(val);
   }
 }

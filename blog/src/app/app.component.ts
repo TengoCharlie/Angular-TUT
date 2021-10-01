@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';
+  data = 'Harsh Tenguriya';
+
+  getValues() {
+    return "get Function data";
+  }
 }

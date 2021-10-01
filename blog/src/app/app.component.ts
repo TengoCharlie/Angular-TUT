@@ -9,7 +9,12 @@ export class AppComponent {
   title = 'blog';
   data = 'Harsh Tenguriya';
 
-  getValues() {
-    return "get Function data";
+
+  // getName(name: string) {
+  //   alert(name);
+  // }
+
+  getName(name: any) {
+    alert(name);
   }
 }

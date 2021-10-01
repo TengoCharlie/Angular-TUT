@@ -1,13 +1,7 @@
 # Angular
 
-## Module
+## Make and call function
 
-- Component + component + helper + API + etc..
-- Module is a large group of multiple items
-- According to convention we are not using a module reusable.
-- steps to setup a module
-  - create module `ng g m MODULE_NAME`
-  - Register module in the `imports` array of `app.module.ts`.
-  - create components to use inside module `ng g c MODULE_NAME/COMPONENT_NAME`
-  - register that components in `exports` array of `MODULE_NAME.module.ts`
-  
+- have to give type for every variable and parameter `VARIABLE: TYPE` else it gives error
+- This is in new angular version which is because of `"strict": true` in `tsconfig.json` to make application with least error make it `"strict": false`
+- And also restart the application from start after changing `tsconfig.json`

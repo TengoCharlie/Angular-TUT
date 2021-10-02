@@ -7,12 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Header components';
-  userData: any = {};
+  display: boolean = false;
 
 
-  getData(data: any) {
-    console.log(data)
-    this.userData = data;
+
+  toggle() {
+    this.display = !this.display;
   }
-
 }

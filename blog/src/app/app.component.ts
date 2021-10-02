@@ -6,8 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Switch case';
+  title: string = 'Loop';
 
-  color = 'goldsss';
-
+  users = ['Anil', 'Bhasker', 'Ravi', 'Harsh', 'Lakshaya']
+  userDetails = [
+    { name: 'Anil', email: 'xyz@xyz.com', phone: '454545' },
+    { name: 'Bhasker', email: 'xyz@xyz.com', phone: '454545' },
+    { name: 'Ravi', email: 'xyz@xyz.com', phone: '454545' },
+    { name: 'Harsh', email: 'xyz@xyz.com', phone: '454545' },
+    { name: 'Lakshya', email: 'xyz@xyz.com', phone: '454545' },
+  ]
 }

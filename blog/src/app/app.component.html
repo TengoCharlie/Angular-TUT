@@ -1,10 +1,8 @@
 <h1>{{title}}</h1>
-<div [ngSwitch]="color">
-  <h1 *ngSwitchCase="'red'" style="color: red;">Red Color</h1>
-  <h1 *ngSwitchCase="'green'" style="color: green;">Green Color</h1>
-  <h1 *ngSwitchCase="'gold'" style="color: gold;">Gold Color</h1>
-  <h1 *ngSwitchCase="'orange'" style="color: orange;">orange Color</h1>
-  <h1 *ngSwitchDefault style="color: Black;">Unknown Color</h1>
+
+<h3 *ngFor="let item of users">Name is : {{item}}</h3>
+<h3 *ngFor="let item of userDetails">Name is : {{item.name}} -> {{item.email}}</h3>
 
 
-</div>
+
+<!-- Nested Loop this is same as othe nesting for array inside elements of array means for multidimensional array -->

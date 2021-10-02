@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Header components';
+  userData: any = {};
+
+
+  getData(data: any) {
+    console.log(data)
+    this.userData = data;
+  }
 
 }

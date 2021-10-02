@@ -1,3 +1,3 @@
 # Angular
 
-## IF else in angular
+## Switch Case

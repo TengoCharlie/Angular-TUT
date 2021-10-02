@@ -1,31 +1,10 @@
-<h1 class="heading">{{title}}</h1>
-
-<!-- Method 1 of if else -->
-<h1 *ngIf="show=='yes' else elseBlock">Harsh Tenguriya</h1>
-
-<ng-template #elseBlock>
-  <h1> Else Condition</h1>
-</ng-template>
-<!-- ===================== -->
-<!-- ==Method two of if else== -->
-
-<h1 *ngIf="show!='yes'; then ifBlock else elseBlock2"></h1>
-<ng-template #ifBlock>
-  <h1>Tengo Charlie</h1>
-</ng-template>
-<ng-template #elseBlock2>
-  <h1> Else Condition of Tengo Charlie</h1>
-</ng-template>
-<!-- ================ -->
+<h1>{{title}}</h1>
+<div [ngSwitch]="color">
+  <h1 *ngSwitchCase="'red'" style="color: red;">Red Color</h1>
+  <h1 *ngSwitchCase="'green'" style="color: green;">Green Color</h1>
+  <h1 *ngSwitchCase="'gold'" style="color: gold;">Gold Color</h1>
+  <h1 *ngSwitchCase="'orange'" style="color: orange;">orange Color</h1>
+  <h1 *ngSwitchDefault style="color: Black;">Unknown Color</h1>
 
 
-<!-- Method 1 for multiple Else if -->
-<ng-template [ngIf]="color==='red'">
-  <h1 style="color: red;">{{color}} colour</h1>
-</ng-template>
-<ng-template [ngIf]="color==='green'">
-  <h1 style="color: green;">{{color}} colour</h1>
-</ng-template>
-<ng-template [ngIf]="color==='yellow'">
-  <h1 style="color: yellow;">{{color}} colour</h1>
-</ng-template>
+</div>

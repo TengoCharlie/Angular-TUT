@@ -6,11 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Important Style in Angular';
+  title: string = 'Switch case';
 
-  // show = true;
-  show = 'yes';
-
-  color = "yellow";
+  color = 'goldsss';
 
 }

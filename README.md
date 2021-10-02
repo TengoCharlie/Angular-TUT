@@ -1,7 +1,7 @@
 # Angular
 
-## Toggle Element
+## Material UI
 
-- Make HTMl Element and button
-- Define and apply property
-- Update property for toggle
+- Install material ui using this command `ng add @angular/material`
+- restart server
+- Have to add the module inside main `module.ts` and then it will maqke a build and the changes willl display

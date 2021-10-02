@@ -1,5 +1,19 @@
 <h1 class="heading">{{title}}</h1>
 
-<input type="text" name="user-name" value={{name}} disabled={{disable}}>
-<br /> <br />
-<input type="text" name="user-name" [value]=name [disabled]=disable>
+<!-- Method 1 of if else -->
+<h1 *ngIf="show=='yes' else elseBlock">Harsh Tenguriya</h1>
+
+<ng-template #elseBlock>
+  <h1> Else Condition</h1>
+</ng-template>
+<!-- ===================== -->
+<!-- ==Method two of if else== -->
+
+<h1 *ngIf="show!='yes'; then ifBlock else elseBlock2"></h1>
+<ng-template #ifBlock>
+  <h1>Tengo Charlie</h1>
+</ng-template>
+<ng-template #elseBlock2>
+  <h1> Else Condition of Tengo Charlie</h1>
+</ng-template>
+<!-- ================ -->

@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Important Style in Angular';
-  name: string = 'Harsh';
 
-  disable = false;
+  // show = true;
+  show = 'yes';
 
 }

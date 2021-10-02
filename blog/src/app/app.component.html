@@ -1,15 +1,8 @@
 <h1>{{title}}</h1>
 
-<button (click)="getData('test')">Call Function</button>
 
+<input type="text" #box placeholder="Enter Name" name="name" />
 <br /><br />
+<button (click)="getValues(box.value)">Call Function</button>
 
-<input type="text" #box (keyup)="getData(box.value)" placeholder="event keyup" />
-<br /><br />
-<input type="text" #boxes (keydown)="getData(boxes.value)" placeholder="event keydown" />
-<br /><br />
-<input type="text" #boxe (blur)="getData(boxe.value)" placeholder="event blur" />
-<br /><br />
-<input type="text" #boxes2 (input)="getData(boxes2.value)" placeholder="event input" />
-
-<h1 (mouseover)="getData('over')"> harsh Ceo Automatically</h1>
+<p>Box values is {{displayVal}}</p>

@@ -6,10 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Important Event in Angular';
+  title: string = 'Important Event in Angular';
+  displayVal: string = '';
 
-
-  getData(val: string) {
+  getValues(val: string) {
     console.warn(val);
+    this.displayVal = val;
   }
 }

@@ -2,7 +2,5 @@
 
 ## Events
 
-- make function for handling event
-- calling a function by events like `keypress, keydown, mouseover`
-- give id to a component using `#` like `#box` = `id='box'`
-- pass dynamic value in INPUT fields as `ID.value` as parameter.
+- pass value from and to in between html and ts file
+- and also print value on screen from input text.

@@ -6,13 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Important Event in Angular';
-  count: number = 0;
-
-  counter(type: string) {
-
-    type === 'plus' ? this.count++ : this.count--;
-  }
+  title: string = 'Important Style in Angular';
 
 
 }

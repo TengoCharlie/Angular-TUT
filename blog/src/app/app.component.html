@@ -1,8 +1,7 @@
 <h1>{{title}}</h1>
 
-<h3 *ngFor="let item of users">Name is : {{item}}</h3>
-<h3 *ngFor="let item of userDetails">Name is : {{item.name}} -> {{item.email}}</h3>
+<h1 [style.color]="color" [style.backgroundColor]="bgColor">Style Binding data</h1>
 
+<h1 [style.color]="color" [style.backgroundColor]="bgColor">Another tag</h1>
 
-
-<!-- Nested Loop this is same as othe nesting for array inside elements of array means for multidimensional array -->
+<button (click)="updateColor()">Update color</button>

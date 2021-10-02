@@ -11,4 +11,6 @@ export class AppComponent {
   // show = true;
   show = 'yes';
 
+  color = "yellow";
+
 }

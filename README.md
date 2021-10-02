@@ -1,5 +1,5 @@
 # Angular
 
-## Style Binding
+## Header components
 
--   When any style property came from `.ts` file.
+- Components become resuable.

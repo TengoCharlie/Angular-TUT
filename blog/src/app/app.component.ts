@@ -7,10 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Important Event in Angular';
-  displayVal: string = '';
+  count: number = 0;
 
-  getValues(val: string) {
-    console.warn(val);
-    this.displayVal = val;
+  counter(type: string) {
+
+    type === 'plus' ? this.count++ : this.count--;
   }
+
+
 }

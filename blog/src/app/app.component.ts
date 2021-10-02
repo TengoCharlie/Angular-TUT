@@ -6,12 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Header components';
-  display: boolean = false;
+  title: string = 'Bootstrap';
 
 
 
-  toggle() {
-    this.display = !this.display;
-  }
+
 }

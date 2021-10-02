@@ -1,7 +1,6 @@
 # Angular
 
-## Toggle Element
+## Bootstrapp
 
-- Make HTMl Element and button
-- Define and apply property
-- Update property for toggle
+- install it in project directory using `ng add @ng-bootstrapp/ng-bootstrapp`.
+- Then restart Server

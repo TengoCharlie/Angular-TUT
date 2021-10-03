@@ -6,13 +6,26 @@ import { Component, IterableDiffers } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Send data parent to child component';
+  title: string = 'Reusable componentt';
 
-  data = 10;
-
-  updateChild() {
-    this.data = Math.floor(Math.random() * 100);
-  }
+  userDetails: any[] = [
+    {
+      name: 'Anil Sidhu',
+      email: 'anil@test.com'
+    },
+    {
+      name: 'Bhasker Sidhu',
+      email: 'Bhasker@test.com'
+    },
+    {
+      name: 'Peter Sidhu',
+      email: 'Peter@test.com'
+    },
+    {
+      name: 'Harsh Sidhu',
+      email: 'Harsh@test.com'
+    }
+  ]
 
 
 }

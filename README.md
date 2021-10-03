@@ -1,8 +1,9 @@
 # Angular
 
-## TODO list
+## Reusable component and sending sta from parent to child
 
-- Input box add task
-- On click event task id and name added to an array
-- onclick the value of task field is empty
-- then display the value of task in the list
+- make child component
+- Use Child component in for loop
+- Send data from parent component to child component
+- use data in child
+- apply css in child component

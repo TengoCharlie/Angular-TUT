@@ -1,7 +1,8 @@
 # Angular
 
-## Toggle Element
+## TODO list
 
-- Make HTMl Element and button
-- Define and apply property
-- Update property for toggle
+- Input box add task
+- On click event task id and name added to an array
+- onclick the value of task field is empty
+- then display the value of task in the list

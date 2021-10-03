@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, IterableDiffers } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,12 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Header components';
-  display: boolean = false;
+  title: string = 'TODO List';
+  list: any[] = [];
 
+  addTask(value: string) {
+    this.list.push({ id: this.list.length, name: value })
+    console.log(this.list)
 
+  }
 
-  toggle() {
-    this.display = !this.display;
+  remove(id: number) {
+    this.list = this.list.filter(item => item.id !== id)
   }
 }

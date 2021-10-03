@@ -6,26 +6,9 @@ import { Component, IterableDiffers } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Reusable componentt';
+  title: string = 'send data from child to parent';
 
-  userDetails: any[] = [
-    {
-      name: 'Anil Sidhu',
-      email: 'anil@test.com'
-    },
-    {
-      name: 'Bhasker Sidhu',
-      email: 'Bhasker@test.com'
-    },
-    {
-      name: 'Peter Sidhu',
-      email: 'Peter@test.com'
-    },
-    {
-      name: 'Harsh Sidhu',
-      email: 'Harsh@test.com'
-    }
-  ]
-
-
+  updateData(item: string) {
+    console.log(item)
+  }
 }

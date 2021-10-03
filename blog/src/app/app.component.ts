@@ -1,4 +1,4 @@
-import { Component, IterableDiffers } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +6,8 @@ import { Component, IterableDiffers } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'send data from child to parent';
+  title: string = 'Two way binding';
 
-  updateData(item: string) {
-    console.log(item)
-  }
+  name: any;
+
 }

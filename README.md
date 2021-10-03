@@ -1,8 +1,7 @@
 # Angular
 
-## Two Way Binding
+## Template Reference Variable
 
-- The way of display and update the property at same time
-  - make text input and define the property `[(ngModel)]="VARIABLE` and also declare variable in `component.ts` file
-  - Import `formsModule` in app.module and then use `VARIABLE` at any place in html or ts file of the same component
-  - test two-way binding
+- This is Id in html tag `#VARIABLE` this is id or template reference variable
+- We can take any value and any type of property of html  tag
+- and The type of the value that is passed is marked as `FUNCTION(VALUE: HTMLInputElement)` this changes according to the html tag.

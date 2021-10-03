@@ -1,5 +1,5 @@
 <h1>{{title}}</h1>
 
-<input type="text" [(ngModel)]="name">
+<input type="text" #box>
 
-<h3>{{name}}</h3>
+<button (click)="getVal(box.value)">Call Function</button>
